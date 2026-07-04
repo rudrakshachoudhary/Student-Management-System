@@ -1,0 +1,40 @@
+101
+Rudraksha Choudhary
+E&TC
+9.8
+102
+Rahul Sharma
+CSE
+8.75
+103
+Priya Patil
+IT
+9.30
+104
+Aman Verma
+CSE
+8.15
+105
+Sneha Kulkarni
+E&TC
+9.10
+106
+Arjun Singh
+ECE
+8.45
+107
+Neha Gupta
+AI&DS
+9.65
+108
+Karan Mehta
+CSE
+7.95
+109
+Pooja Deshmukh
+IT
+8.80
+110
+Aditya Joshi
+E&TC
+9.05

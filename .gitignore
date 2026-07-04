@@ -1,0 +1,16 @@
+# Executable files
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Visual Studio Code
+.vscode/
+
+# Build folders
+Debug/
+Release/
+
+# Log files
+*.log
