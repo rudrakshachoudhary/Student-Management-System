@@ -1,46 +1,55 @@
-# 🎓 Student Management System
+# Student Management System
 
-A menu-driven **Student Management System** developed in **C++** using **Object-Oriented Programming (OOP)** concepts. The application allows users to efficiently manage student records through an interactive console interface.
+A menu-driven Student Management System developed in **C++** to practice **Object-Oriented Programming (OOP)**, **STL**, and **File Handling** concepts.
+
+This project allows users to manage student records through a simple console-based interface. Student information is stored in a text file, ensuring that data is preserved even after the program is closed.
 
 ---
 
-## ✨ Features
+## Project Objective
 
-- ➕ Add Student
-- 📋 Display Students (Professional Table Format)
-- 🔍 Search Student
+The objective of this project was to strengthen my understanding of C++ programming by implementing a real-world console application using Object-Oriented Programming, STL, file handling, searching, sorting, and modular programming concepts.
+
+---
+
+## Features
+
+- Add New Student
+- Display All Students
+- Search Student
   - By Roll Number
   - By Name (Case-insensitive & Partial Search)
-- ✏️ Update Student Details
-- ❌ Delete Student (with Confirmation)
-- 📊 Student Statistics
+- Update Student Details
+- Delete Student (with Confirmation)
+- Sort Students
+  - Roll Number (Ascending / Descending)
+  - Name (A-Z)
+  - CGPA (Ascending / Descending)
+- Student Statistics
   - Total Students
   - Highest CGPA
   - Lowest CGPA
   - Average CGPA
-- 📂 File Handling (Data saved in `students.txt`)
-- 🔃 Sort Students
-  - Roll Number (Ascending / Descending)
-  - Name (A-Z)
-  - CGPA (Ascending / Descending)
-- ✅ Duplicate Roll Number Validation
-- ✅ CGPA Input Validation
+- Duplicate Roll Number Validation
+- CGPA Validation
+- Persistent Data Storage using File Handling
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - C++
 - Object-Oriented Programming (OOP)
 - Standard Template Library (STL)
 - File Handling (`fstream`)
 - Vectors
-- Sorting Algorithms
+- Custom Comparator Functions
 - Modular Programming
+- Git & GitHub
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Student-Management-System
@@ -61,7 +70,7 @@ Student-Management-System
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Clone the repository
 
@@ -69,25 +78,21 @@ Student-Management-System
 git clone https://github.com/rudrakshachoudhary/Student-Management-System.git
 ```
 
-### Go to the project folder
+### Navigate to the project directory
 
 ```bash
 cd Student-Management-System
 ```
 
-### Compile
+### Compile the project
 
 ```bash
 g++ src/main.cpp src/Student.cpp -o StudentManagementSystem
 ```
 
-### Run
+### Run the application
 
-```bash
-./StudentManagementSystem
-```
-
-> On Windows PowerShell:
+**Windows (PowerShell)**
 
 ```powershell
 .\StudentManagementSystem.exe
@@ -95,25 +100,35 @@ g++ src/main.cpp src/Student.cpp -o StudentManagementSystem
 
 ---
 
-## 🎯 Future Improvements
+## What I Learned
 
-- GUI Version
-- Login Authentication
-- Database Integration
-- Export Reports (PDF / CSV)
-- Attendance Management
-- Student Performance Analytics
+Through this project, I gained practical experience in:
+
+- Object-Oriented Programming in C++
+- Classes and Objects
+- Header Files and Source Files
+- Modular Programming
+- File Handling using `fstream`
+- STL Vectors
+- Searching and Sorting Algorithms
+- Custom Comparator Functions
+- Input Validation
+- Using Git and GitHub for Version Control
 
 ---
 
-## 👨‍💻 Author
+## Future Improvements
+
+- Graphical User Interface (GUI)
+- Database Integration
+- Login Authentication
+- Export Reports (CSV/PDF)
+- Student Attendance Management
+
+---
+
+## Author
 
 **Rudraksha Choudhary**
 
 GitHub: https://github.com/rudrakshachoudhary
-
----
-
-## ⭐ If you like this project
-
-Please consider giving it a ⭐ on GitHub.
