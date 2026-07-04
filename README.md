@@ -1,55 +1,33 @@
 # Student Management System
 
-A menu-driven Student Management System developed in **C++** to practice **Object-Oriented Programming (OOP)**, **STL**, and **File Handling** concepts.
+This is my first C++ project. I built it to improve my understanding of Object-Oriented Programming, STL and File Handling by creating a simple console-based application.
 
-This project allows users to manage student records through a simple console-based interface. Student information is stored in a text file, ensuring that data is preserved even after the program is closed.
-
----
-
-## Project Objective
-
-The objective of this project was to strengthen my understanding of C++ programming by implementing a real-world console application using Object-Oriented Programming, STL, file handling, searching, sorting, and modular programming concepts.
-
----
+The program allows users to store and manage student records. The data is saved in a text file so that it is available even after the program is closed.
 
 ## Features
 
-- Add New Student
-- Display All Students
-- Search Student
-  - By Roll Number
-  - By Name (Case-insensitive & Partial Search)
+- Add Student
+- Display Students
+- Search Student by Roll Number
+- Search Student by Name
 - Update Student Details
-- Delete Student (with Confirmation)
-- Sort Students
-  - Roll Number (Ascending / Descending)
-  - Name (A-Z)
-  - CGPA (Ascending / Descending)
+- Delete Student
+- Sort Students by Roll Number, Name and CGPA
 - Student Statistics
-  - Total Students
-  - Highest CGPA
-  - Lowest CGPA
-  - Average CGPA
 - Duplicate Roll Number Validation
 - CGPA Validation
-- Persistent Data Storage using File Handling
-
----
+- File Handling
 
 ## Technologies Used
 
 - C++
-- Object-Oriented Programming (OOP)
-- Standard Template Library (STL)
-- File Handling (`fstream`)
-- Vectors
-- Custom Comparator Functions
-- Modular Programming
-- Git & GitHub
+- Object-Oriented Programming
+- STL
+- File Handling
+- Git
+- GitHub
 
----
-
-## Project Structure
+## Folder Structure
 
 ```text
 Student-Management-System
@@ -68,67 +46,28 @@ Student-Management-System
 └── .gitignore
 ```
 
----
-
-## How to Run
-
-### Clone the repository
-
-```bash
-git clone https://github.com/rudrakshachoudhary/Student-Management-System.git
-```
-
-### Navigate to the project directory
-
-```bash
-cd Student-Management-System
-```
-
-### Compile the project
-
-```bash
-g++ src/main.cpp src/Student.cpp -o StudentManagementSystem
-```
-
-### Run the application
-
-**Windows (PowerShell)**
-
-```powershell
-.\StudentManagementSystem.exe
-```
-
----
-
 ## What I Learned
 
-Through this project, I gained practical experience in:
+While building this project I learned about:
 
-- Object-Oriented Programming in C++
 - Classes and Objects
 - Header Files and Source Files
 - Modular Programming
-- File Handling using `fstream`
-- STL Vectors
-- Searching and Sorting Algorithms
-- Custom Comparator Functions
+- STL Vector
+- File Handling
+- Searching and Sorting
 - Input Validation
-- Using Git and GitHub for Version Control
-
----
+- Git and GitHub
 
 ## Future Improvements
 
-- Graphical User Interface (GUI)
+- GUI Version
 - Database Integration
-- Login Authentication
-- Export Reports (CSV/PDF)
-- Student Attendance Management
-
----
+- Login System
+- Export Student Report
 
 ## Author
 
-**Rudraksha Choudhary**
+Rudraksha Choudhary
 
 GitHub: https://github.com/rudrakshachoudhary
